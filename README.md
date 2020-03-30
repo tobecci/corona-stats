@@ -1,4 +1,7 @@
-# egdiala-portfolio
+# corona-stats
+
+## Description
+this project is intended to display statisitics of the current covid 19 pandemic
 
 ## Project setup
 ```
