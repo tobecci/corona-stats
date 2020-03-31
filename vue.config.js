@@ -1,5 +1,5 @@
 module.exports = {
-  // "publicPath":"http://speedconsultingng.com",
+  "publicPath":"https://codeweeb.github.io/corona-stats/",
   "transpileDependencies": [
     "vuetify"
   ]
