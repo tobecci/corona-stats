@@ -3,7 +3,8 @@
     <v-container>
         <v-app-bar
           app
-          dark
+          color="red lighten-1"
+          dense
           >
         <div class="d-flex align-center">
           <!-- <v-img
@@ -24,7 +25,8 @@
               depressed
               small=""
               :to="item.path"
-              class="pa-1 hidden-sm-and-down text-capitalize"
+              color="transparent"
+              class="pa-1 ma-2 hidden-sm-and-down text-capitalize"
               >
               {{ item.name }}
               </v-btn>
@@ -37,7 +39,9 @@
           :key="icon.name" 
           depressed
           small
+          color="transparent"
           :href="icon.link"
+          class=""
           >
             <v-icon>{{  icon.name }}</v-icon>
           </v-btn>
@@ -46,6 +50,7 @@
         <v-btn
         @click="drawer = !drawer"
         class="hidden-lg-and-up"
+        color="transparent"
         >
           <v-icon>mdi-menu</v-icon>
         </v-btn>

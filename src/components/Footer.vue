@@ -6,9 +6,9 @@
       <v-card
         flat
         tile
-        dark
         width="100%"
         class="text-center pa-5"
+        color="red lighten-1"
       >
         <!-- footer text -->
         <v-row>
@@ -23,8 +23,8 @@
         :key="icon.name" 
         depressed
         small
+        color="transparent"
         :href="icon.link"
-        dark
         class="ma-2"
         >
           <v-icon>{{  icon.name }}</v-icon>
@@ -61,7 +61,7 @@
 
         <v-divider></v-divider>
 
-        <v-card-text class="white--text">
+        <v-card-text class="">
          Copyright © {{ new Date().getFullYear() }} — <strong>Corona Stats</strong>
         </v-card-text>
       </v-card>
