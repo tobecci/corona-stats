@@ -11,7 +11,7 @@
 <script>
 import Header from './components/Header';
 import Footer from './components/Footer';
-window.location.href="https://codeweeb.github.io/corona-stats/home";
+
 export default {
   name: 'App',
 
