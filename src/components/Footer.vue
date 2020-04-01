@@ -96,10 +96,9 @@ export default {
   
   data: () => ({
      icons: [
-      {name: "mdi-facebook",link:"http://facebook.com/speedadvisors"},
-      {name: "mdi-twitter",link:"http://twitter.com/speedadvisors"},
-      {name: "mdi-instagram",link:"http://instagram.com/speed.consulting"},
-      {name: "mdi-linkedin",link:"http://linkedin.com/company/speed-consulting-limited"},
+      {name: "mdi-twitter",link:"http://twitter.com/codeweeb"},
+      {name: "mdi-linkedin",link:"https://www.linkedin.com/in/tochukwu-ojinaka-a85689184/"},
+      {name: "mdi-github",link:"http://github.com/codeweeb"},
     ]
   }),
 };

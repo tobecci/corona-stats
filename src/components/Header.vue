@@ -27,6 +27,7 @@
               color="transparent"
               class="pa-1 ma-2 hidden-sm-and-down text-capitalize"
               >
+              <v-icon class="ma-2" v-text="item.icon"></v-icon>
               {{ item.name }}
               </v-btn>
           </div>
@@ -70,9 +71,12 @@
       :key="item.name"
       :to="item.path"
       >
-        <v-list-item-content>
-            {{ item.name }}
-        </v-list-item-content>
+       <v-list-item-icon>
+            <v-icon v-text="item.icon"></v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.name"></v-list-item-title>
+          </v-list-item-content>
       </v-list-item>
 
     </v-list>
@@ -88,16 +92,13 @@ export default {
     drawer: false,
     menuItems:[
       { name: "Home", icon: "mdi-home", path:"/" },
-      { name: "Global", icon: "mdi-home", path:"/global" },
-      { name: "About" , path:"/about" },
-      { name: "Contact" , path:"/contact" },
+      { name: "Contact" , icon: "mdi-phone", path:"/contact" },
 
     ],
     icons: [
-      {name: "mdi-facebook",link:"http://facebook.com/speedadvisors"},
-      {name: "mdi-twitter",link:"http://twitter.com/speedadvisors"},
-      {name: "mdi-instagram",link:"http://instagram.com/speed.consulting"},
-      {name: "mdi-linkedin",link:"http://linkedin.com/company/speed-consulting-limited"},
+      {name: "mdi-twitter",link:"http://twitter.com/codeweeb"},
+      {name: "mdi-linkedin",link:"https://www.linkedin.com/in/tochukwu-ojinaka-a85689184/"},
+      {name: "mdi-github",link:"http://github.com/codeweeb"},
     ]
   }),
 }

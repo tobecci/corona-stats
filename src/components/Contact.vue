@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card>
+    <!-- <v-card>
       <v-parallax
     height="300"
     src="/22.jpg"
@@ -11,7 +11,7 @@
       </div>
     </div>
   </v-parallax>
-    </v-card>
+    </v-card> -->
 
               <div class="d-flex flex-row flex-wrap-reverse justify-space-around ma-5 mt-10">
 
@@ -41,7 +41,7 @@
                 ></v-text-field>
                 <v-textarea placeholder="Your Message" outlined v-model="formValues.message"></v-textarea>
                 <v-btn
-                color="red"
+                color="#f5f5f5"
                 class="mb-4"
                 @click="submit"
                 >submit</v-btn>
@@ -58,7 +58,7 @@
         </v-card-title>
 
         <v-card-text>
-          Whether you have a question about features, services, pricing, need a demo, or anything else, our team is ready to answer all your questions
+          Whether you have a question about features, services, need a demo, or anything else, we are ready to answer all your questions
         </v-card-text>
       </v-card>
 
