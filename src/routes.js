@@ -7,6 +7,7 @@ import People from './components/People.vue';
 import Technology from './components/Technology.vue';
 import Training from './components/Training.vue';
 import Sme from './components/Sme.vue';
+import Global from './components/Global.vue';
 
 export default [
     {path:'/',component:Home},
@@ -18,4 +19,5 @@ export default [
     {path:'/technology',component:Technology},
     {path:'/training',component:Training},
     {path:'/sme',component:Sme},
+    {path:'/global',component:Global},
 ]

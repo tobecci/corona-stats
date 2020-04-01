@@ -3,7 +3,6 @@
     <v-container>
         <v-app-bar
           app
-          color="red lighten-1"
           dense
           >
         <div class="d-flex align-center">
@@ -15,7 +14,7 @@
             transition="scale-transition"
             width="200"
           /> -->
-          <div>CORONA STATS</div>
+          <div class="font-weight-bold">COVID19 STATS</div>
         </div>
 
           <div class="ml-5">
@@ -51,6 +50,7 @@
         @click="drawer = !drawer"
         class="hidden-lg-and-up"
         color="transparent"
+        depressed=""
         >
           <v-icon>mdi-menu</v-icon>
         </v-btn>
@@ -89,6 +89,7 @@ export default {
     drawer: false,
     menuItems:[
       { name: "Home", icon: "mdi-home", path:"/" },
+      { name: "Global", icon: "mdi-home", path:"/global" },
       { name: "About" , path:"/about" },
       { name: "Contact" , path:"/contact" },
 
