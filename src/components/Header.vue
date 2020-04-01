@@ -58,7 +58,6 @@
   </v-container>
 
     <v-navigation-drawer
-    dark
     v-model="drawer"
     temporary=""
     app

@@ -2,6 +2,10 @@
 
 ## Description
 this project is intended to display statisitics of the current covid 19 pandemic
+vist the link below to view the app
+
+## Link
+https://codeweeb.github.io/corona-stats
 
 ## Project setup
 ```

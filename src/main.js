@@ -14,7 +14,7 @@ Vue.use(VueResource);
 Vue.use(VueRouter);
 const router = new VueRouter({
   routes: Routes,
-  // mode: 'history',
+  mode: 'history',
 //   default mode is "hash"
 });
 
