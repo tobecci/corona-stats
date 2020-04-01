@@ -1,5 +1,5 @@
 module.exports = {
-  "publicPath":"https://codeweeb.github.io/corona-stats/",
+  "publicPath":"/corona-stats",
   "transpileDependencies": [
     "vuetify"
   ]
