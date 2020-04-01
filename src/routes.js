@@ -10,7 +10,7 @@ import Sme from './components/Sme.vue';
 import Global from './components/Global.vue';
 
 export default [
-    {path:'/', redirect:'/global'},
+    {path:'/', component:Global},
     {path:'/home',component:Home},
     {path:'/about',component:About},
     {path:'/conferences',component:Conferences},
@@ -22,3 +22,4 @@ export default [
     {path:'/sme',component:Sme},
     {path:'/global',component:Global},
 ]
+
